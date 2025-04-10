@@ -1,0 +1,7 @@
+# Este archivo lista las dependencias externas de Python necesarias.
+# El script GUI en sí mismo usa principalmente la biblioteca estándar de Python (Tkinter).
+
+# La dependencia principal es la herramienta de línea de comandos yt-dlp.
+# Aunque el script no la importa directamente como una biblioteca Python,
+# la invoca como un subproceso. Instalarla vía pip asegura que esté disponible.
+yt-dlp
