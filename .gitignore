@@ -1,0 +1,37 @@
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+Thumbs.db
+
+# Entornos virtuales
+venv/
+.env/
+.env.bak/
+.env.*
+
+# Archivos generados por yt-dlp
+*.mp4
+*.mp3
+*.webm
+*.mkv
+*.part
+*.aria2
+*.json
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de sistema o backup
+*.~*
+*.old
